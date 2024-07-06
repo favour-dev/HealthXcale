@@ -2,14 +2,24 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    font-size: 2.5vh;
+}
 nav{
     background-color: rgb(52,98,150);
+}
+img{
+    width: 20vh;
 }
 .nav-container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 10px;
 
+}
+.logo{
+    padding-top: 10px;
 }
 .xcale{
     color: rgb(198, 231, 201);
@@ -17,25 +27,25 @@ nav{
 .tag-line{
     color: white;
 }
-.icon-circle{
+.icon-circle, .user-icon{
     position: relative;
-    width: 45px;
-    height: 45px;
+    width: 5vh;
+    height: 5vh;
     background-color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.shopping-cart{
+.shopping-cart,.person-icon{
     color: black ;
-    font-size: 20px;
+    font-size: 3vh;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 .checkmark{
     color: rgb(255, 255, 255);
-    font-size: 7px;
+    font-size: 5px;
     position: absolute;
     top:45%;
     left:60%;
@@ -43,30 +53,48 @@ nav{
 }
 .notification-circle{
     position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 24px;
-    height: 24px;
+    top: -1vh;
+    right: 0vh;
+    width: 2vh;
+    height: 2vh;
     background-color: rgb(167, 212, 239);
     color: black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
 }
 .cart-shopmeds{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 2vh;
     
 }
 .shopmeds-button{
     background-color: rgb(94,186,36);
     color: white;
-    width: 100px;
-    height: 30px;
+    width: 18vh;
+    height: 5vh;
     border: none;
+    font-size: 2.5vh;
+    font-weight: bold;
     border-radius: 5px;
+}
+
+@media (max-width:725px) {
+    .nav-container{
+        padding: 10px 0px;
+    
+    }
+    .tag-line{
+        display: none;
+    }
+    /* .cart-shopmeds{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+    } */
 }
