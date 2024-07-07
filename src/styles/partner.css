@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.partner-container{
+    width: 90%;
+    margin: auto;
+}
