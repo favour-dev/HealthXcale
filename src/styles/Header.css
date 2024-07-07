@@ -14,8 +14,8 @@ img{
 .nav-container{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 10px 20px;
 
 }
 .logo{
@@ -82,19 +82,24 @@ img{
     font-weight: bold;
     border-radius: 5px;
 }
-
+.hamburger{
+    display: none;
+}
 @media (max-width:725px) {
     .nav-container{
         padding: 10px 0px;
     
     }
-    .tag-line{
+    .tag-line, .user-icon, .shopmeds-container{
         display: none;
     }
-    /* .cart-shopmeds{
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        
-    } */
+    .hamburger{
+        display: block;
+        font-size: 3vh;
+        color: white;
+    }
+    .nav-container{
+        padding: 10px 20px;
+    }
+    
 }

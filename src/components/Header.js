@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styles/Header.css'; 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faCheck, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faCheck, faUser, faHamburger  } from '@fortawesome/free-solid-svg-icons';
 import HealthXcale from '../assets/images/HealthXcale.png';
+
+
 
 const Header = () => {
     return (
@@ -28,9 +30,11 @@ const Header = () => {
                         <div className='shopmeds-container'>
                             <button className='shopmeds-button'>Shop Meds</button>
                         </div>
+                        <div className='hamburger-section'>
+                            <FontAwesomeIcon icon= {faHamburger} className='hamburger' />
+                        </div>
                     </div>
-                    
-                </div>
+                </div> 
             </nav>
         </header>
     )
