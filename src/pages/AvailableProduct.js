@@ -30,7 +30,7 @@ const products = [
 ];
 
 const AvailableProduct = () => {
-  console.log('Rendering AvailableProduct with products:', products);
+  // console.log('Rendering AvailableProduct with products:', products);
 
   return (
     <div >

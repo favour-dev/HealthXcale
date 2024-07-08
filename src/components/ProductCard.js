@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/productcard.css'; 
  
 
 const ProductCard = ({ product, showAddToCart, showPrice, alignText }) => {
     return (
-      <div >
+      <div className='product-card-container'>
         <div className="product-card">
             <img src={product.image} alt={product.name} className="product-image" />
         </div>
@@ -13,9 +14,16 @@ const ProductCard = ({ product, showAddToCart, showPrice, alignText }) => {
             <p className="product-description">{product.description}</p>
             <p className="product-descriptions">{product.descriptions}</p>
             {showPrice && <p className="product-price">${product.price}</p>}
-            {/* <p className="product-price">₦{product.price}</p> */}
-            {/* <button className="buy-button">Add to cart</button> */}
-            {showAddToCart && <button className="buy-button">Add to Cart</button>}
+            {showAddToCart && (
+            <Link
+              to={{
+                pathname: `/viewcart/${product.id}`,
+                state: { product },
+              }}
+                className="buy-button">
+                 Add to Cart
+            </Link>
+          )}  
         </div>
       </div>
     );

@@ -20,14 +20,14 @@
   .product-grid.three-column {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    /* gap: 16px; */
     padding: 16px 100px;
   }
   
   .product-grid.four-column {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    /* gap: 16px; */
     padding: 16px;
   }
   

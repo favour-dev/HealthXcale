@@ -8,7 +8,6 @@ const ProductGrid = ({ products, className, showAddToCart, showPrice, alignText 
       
       <div className={`product-grid ${className}`}>
         {products.map(product => (
-          // <ProductCard key={product.id} product={product} />
           <ProductCard key={product.id} product={product} showAddToCart={showAddToCart} showPrice={showPrice} alignText={alignText} />
         ))}
       </div>

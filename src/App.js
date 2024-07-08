@@ -41,15 +41,15 @@ function App() {
             element={
               <>
                 <Hero />
-                <ProductGrid products={products} showAddToCart={false} className="three-column" showPrice={false} alignText="center"/>
+                <ProductGrid products={products} showAddToCart={false} className="three-column" showPrice={false} alignText="center" />
+                <Partner />
               </>
             }
           />
           <Route path="/cart" element={<ViewCart />} />
-          <Route path="/viewcart :id" element={<ViewCart />} />
+          <Route path="/viewcart/:id" element={<ViewCart />} />
           <Route path="/available-products" element={<AvailableProduct />} />
         </Routes>
-        <Partner/>
         <Footer />
       </div>
     </Router>
