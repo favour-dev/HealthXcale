@@ -1,0 +1,21 @@
+.available-products-page {
+    display: grid;
+    grid-template-columns: repeat(4, fr);
+    gap: 16px;
+    padding: 16px;
+  }
+  .availableproducts{
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .available-products-page {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .available-products-page {
+      grid-template-columns: 1fr;
+    }
+  }

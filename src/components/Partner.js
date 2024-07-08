@@ -7,7 +7,7 @@ const Partner = () => {
     return (
             <div>
                 <div className='partner-container'>
-                    <div><h2>Our Partners</h2></div>
+                    <div><h2 className='our-partner'>Our Partners</h2></div>
                     <div className='partner-logo'>
                         <div className=''><img className='' alt='StandardCharatered' src={HealthXcale}/></div>
                         <div className=''><img className='' alt='SendStack' src={HealthXcale}/></div>

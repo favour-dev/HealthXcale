@@ -92,6 +92,7 @@ p{
 .shop-by-category{
     font-size: 2.5vh;
     font-weight: 600;
+    
 }
 .search-input{
     width: 55vh;
@@ -106,6 +107,9 @@ p{
     font-size: 2.5vh;
     color: #ccc;
 }
+.search-container{
+    box-shadow: 3px 10px 5px rgb(219, 219, 219);
+}
 .call-container{
     display: flex;
 }
@@ -117,6 +121,32 @@ p{
 }
 .tag-line2{
     display: none;
+}
+  
+.dropdown-toggle {
+    position: absolute;
+    top: 16%;
+    left: 21%;
+}
+  
+.dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 8px;
+    list-style: none;
+    padding: 0;
+}
+  
+  .dropdown-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+  
+  .dropdown-menu li:hover {
+    background-color: #f1f1f1;
 }
 
 @media (max-width:725px) {

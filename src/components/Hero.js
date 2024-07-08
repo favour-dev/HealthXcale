@@ -6,6 +6,7 @@ import Image2 from '../assets/images/pexels-pixabay-354951.jpg';
 import Image3 from '../assets/images/pexels-olly-762080.jpg';
 import Image4 from '../assets/images/pexels-hasibullah-zhowandai-248954-819530.jpg';
 import HealthXcale from '../assets/images/HealthXcale.png';
+import { Link } from 'react-router-dom';
 
 
 const Hero = () => {
@@ -23,7 +24,9 @@ const Hero = () => {
                         <img className='pharmacist-img'alt='Pharmacist' src={Pharmacist} />
                     </div>
                     <div>
-                        <button className='start-shopping'>Start Shopping Now</button>
+                        <Link to ='/available-products' >
+                            <button className='start-shopping'>Start Shopping Now</button>
+                        </Link>
                     </div>
                     <div>
                         <div><p className='satisfied-customer'>24,000+ <br/>customers satisfied</p></div>
