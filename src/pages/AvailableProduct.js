@@ -2,17 +2,17 @@ import React from 'react';
 import ProductGrid from '../components/ProductGrid'; // Adjust path based on actual location
 import '../styles/availableproduct.css'; // Adjust path based on actual locatioimport productImage1 from '../assets/images/image 5.png';
 import productImage1 from '../assets/images/image 11.png';
-import productImage2 from '../assets/images/image 5.png';
-import productImage3 from '../assets/images/image 5.png';
+import productImage2 from '../assets/images/image 12.png';
+import productImage3 from '../assets/images/image 23.png';
 import productImage4 from '../assets/images/image 13.png';
-import productImage5 from '../assets/images/image 5.png';
-import productImage6 from '../assets/images/image 11.png';
-import productImage7 from '../assets/images/image 5.png';
-import productImage8 from '../assets/images/image 11.png';
-import productImage9 from '../assets/images/image 5.png';
-import productImage10 from '../assets/images/image 13.png';
-import productImage11 from '../assets/images/image 11.png';
-import productImage12 from '../assets/images/image 5.png';
+import productImage5 from '../assets/images/image 15.png';
+import productImage6 from '../assets/images/image 16.png';
+import productImage7 from '../assets/images/image 17.png';
+import productImage8 from '../assets/images/image 14 (1).png';
+import productImage9 from '../assets/images/image 11.png';
+import productImage10 from '../assets/images/image 25.png';
+import productImage11 from '../assets/images/image 24.png';
+import productImage12 from '../assets/images/image 14 (1).png';
 
 const products = [
   { id: 1, name: 'Paracetamol', price: 2050, image: productImage1 ,description: 'Emzor Paracetamol, 500g', descriptions: 'Tabs blister X 12' },
