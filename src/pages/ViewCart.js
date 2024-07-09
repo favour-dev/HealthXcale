@@ -62,10 +62,6 @@ const ViewCart = () => {
           </tr>
         </tbody>
       </table>
-      {/* <div className="cart-summary">
-        <div className='cart-subtotal'><p>Cart subtotal</p></div>
-        <div className='cart-price'><p>₦ {product.price}</p></div>
-      </div> */}
       <div className='cart-summary'>
         <div className='cart-subtotal'>
             <p>Cart subtotal</p>
