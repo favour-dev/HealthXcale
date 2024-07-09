@@ -2,7 +2,7 @@
   "name": "timbu-cloud-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://favour-dev.github.io/HealthXcale",
+  "homepage": "https://favour-dev.github.io",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
@@ -24,6 +24,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
